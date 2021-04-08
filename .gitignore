@@ -11,6 +11,9 @@
 # production
 /build
 
+# learn
+/learn
+
 # misc
 .DS_Store
 .env.local
