@@ -40,7 +40,6 @@ export function useSoundfont({ AudioContext }: Settings): SoundAdapter {
     }
 
     const node = player.play(note.toString())
-    console.log('playing note', note)
     activeNodes = { ...activeNodes, [note]: node }
   }
 
